@@ -1,23 +1,29 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgreen;
 }
 
 .image {
     max-width: 50%;
     height: 200px;
     margin: auto;
+    border: yellowgreen 3px;
 }
 
 img {
     display: block;
     max-width: 50%;
+    margin: 0 auto;
 }
 
-.img-div {
+#img-div {
     display: block;
-    max-width: 200px;
+    background-color: rgb(90, 180, 97);
+    margin: auto;
+    max-width: 80%;
 }
 
 figcaption {
+    margin: auto;
     
 }
